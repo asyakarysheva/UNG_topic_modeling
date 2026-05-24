@@ -5,7 +5,6 @@ Topic Modeling for the UNG Corpus of Slovenian Literary Texts
 
 ```
 .
-├── corpus/
 ├── metadata/
 ├── notebooks/
 ├── topic_modeling/  # topic modeling module
