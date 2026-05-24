@@ -1,0 +1,21 @@
+input_data:
+  corpus_dir: "corpus"
+  additional_stop_words_path: "topic_modeling/stopwords/additional_stopwords.txt"
+  metadata: "metadata/THEMATIC MODELLING - CORPUS 100 TEXTS.xlsx"
+
+output_data:
+  output_dir: "output_nouns"
+  lemmatized_corpus_dir: "lemmatized_corpus_nouns"
+  coherence_figure_file_name: "coherence_figure.png"
+  lda_model_name: "best_lda_model.gensim"
+  id2word_name: "id2word.gensim"
+  corpus: "corpus.pkl"
+
+lda_parameters:
+  limit: 100
+  start: 10
+  step: 5
+  num_of_topic_words: 15
+  num_of_topics_per_document: 5
+
+num_of_texts_to_read: all
